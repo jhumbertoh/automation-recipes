@@ -19,7 +19,7 @@ public class DatePickerTests extends BaseTest {
 
     @Test
     public void pastDate(){
-        //December 20 1989
+        //July 31 1988
         var dateToSelect = LocalDate.of(1988, Month.JULY, 31);
         //Select date
         var selectedDate = new DatePicker(driver).chooseDate(dateToSelect);
